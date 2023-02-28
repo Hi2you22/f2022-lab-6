@@ -76,21 +76,22 @@ void togglexn(GPIO_TypeDef *port, int n) {
 
 //==========================================================
 // Write the EXTI interrupt handler for pins 0 and 1 below.
-// Copy the name from startup/startup_stm32.s, create a label
-// of that name below, declare it to be global, and declare
-// it to be a function.
-// It acknowledge the pending bit for pin 0, and it should
+// Copy the name from startup/startup_stm32.s, create a global
+// function of that name below.
+// It should acknowledge the pending bit for pin 0, and it should
 // call togglexn(GPIOB, 8).
 
 
 //==========================================================
 // Write the EXTI interrupt handler for pins 2-3 below.
+// Same instructions as 0-1.
 // It should acknowledge the pending bit for pin2, and it
 // should call togglexn(GPIOB, 9).
 
 
 //==========================================================
 // Write the EXTI interrupt handler for pins 4-15 below.
+// Same instructions as 0-1.
 // It should acknowledge the pending bit for pin4, and it
 // should call togglxn(GPIOB, 10).
 
